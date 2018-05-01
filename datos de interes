@@ -1,0 +1,15 @@
+// para saber como crear un paquete npm cursode fundamentos de platzi clases 38 - 10 seccion "Creando un paquete para NPM" --> https://platzi.com/clases/fundamentos-javascript/
+
+
+// para configurar correctamente babel en npm
+// se debe seleccionar CLI en Babel built-ins --> https://babeljs.io/docs/setup/#babel_cli
+
+// https://babeljs.io/docs/setup/#installation
+
+// para escribir un test con npm se puedem usdar dos librerias mucha y chai
+npm install --save-dev mocha chai
+// mocha es para correr los test y chai para realizar aserciones (este es el valor que espero que me devuelva la funcion que estamos requiriendo del modulo)
+
+// para correr el test se debe incluir tes en scripts en package.json
+// para correrlo desde npm en la terminal se debe escribir npm test
+
